@@ -11,6 +11,7 @@ section{
     width: 300vw;
     height: 300px;
     display: flex;
+    transition: all 1s;
 }
 
 .box{

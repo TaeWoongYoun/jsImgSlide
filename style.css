@@ -19,6 +19,18 @@ section{
     height: 100%;
 }
 
+.box:nth-child(1){
+    background-color: aquamarine;
+}
+
+.box:nth-child(1){
+    background-color: aqua;
+}
+
+.box:nth-child(1){
+    background-color: lightsalmon;
+}
+
 .btnBox{
     width: 100vw;
     height: 100px;
@@ -27,9 +39,29 @@ section{
     justify-content: center;
 }
 
-#btn{
+.btn{
     width: 50px;
     height: 35px;
     border-radius: 5px;
     margin: 10px;
+}
+
+.btn:nth-child(1){
+    background-color: aquamarine;
+}
+
+.btn:nth-child(2){
+    background-color: aqua;
+}
+
+.btn:nth-child(3){
+    background-color: lightpink;
+}
+
+.btn:nth-child(4){
+    background-color: aliceblue;
+}
+
+.btn:nth-child(5){
+    background-color: aliceblue;
 }
